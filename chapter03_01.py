@@ -57,3 +57,9 @@ print(int(True)) # True : 1, False : 0 을 의미
 print(float(False)) # 실수에 넣으면 0.0으로
 print(complex(3))
 print(complex('3')) #문자형 -> 숫자형으로 자동 치환되서 출력]
+
+x, y = divmod(5,2) # 몫과 나머지 같이 구할 때
+print(x,y)
+
+del x #변수 지울 때 사용
+x = none # 빈 변수 만들 때
